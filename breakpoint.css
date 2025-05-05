@@ -1,0 +1,52 @@
+body {
+	background-color: red;
+}
+
+.row {
+	color: black;
+}
+
+@media (min-width: 576px) {
+	body {
+		background: orange;
+	}
+}
+
+@media (min-width: 768px) {
+	body {
+		background: yellow;
+	}
+}
+
+@media (min-width: 992px) {
+	body {
+		background: green;
+		color: #fdfdfd;
+	}
+
+	#rowheader {
+		color: #fdfdfd;
+	}
+}
+
+@media (min-width: 1200px) {
+	body {
+		background: blue;
+		color: #fdfdfd;
+	}
+
+	#rowheader {
+		color: #fdfdfd;
+	}
+}
+
+@media (min-width: 1400px) {
+	body {
+		background: indigo;
+		color: #fdfdfd;
+	}
+
+	#rowheader {
+		color: #fdfdfd;
+	}
+}
